@@ -84,7 +84,7 @@ ALL TESTS PASSED
 | `led` | H17 | LED0 |
 | `buzzer` | C17 | Pmod JA1 |
 
-A **passive** buzzer is required between JA1 and GND: an active buzzer has its own oscillator and ignores the input frequency. Because the notes are between 260 and 520 Hz, the LED appears as a steady glow rather than a visible blink.
+The buzzer must be **passive**: an active buzzer has its own oscillator and ignores the input frequency. Because the notes are between 260 and 520 Hz, the LED appears as a steady glow rather than a visible blink.
 
 ## Running it
 
@@ -109,8 +109,8 @@ Makefile       simulation targets
 
 ## Tools
 
-Verilog HDL · Xilinx Vivado · Icarus Verilog · GTKWave · Digilent Nexys A7-100T
+Verilog HDL · Xilinx Vivado · Digilent Nexys A7-100T
 
 ## Author
 
-Camilla Malossi, Automation Engineering, University of Bologna (AlmaTong exchange at Tongji University)
+Camilla Malossi, Automation Engineering, University of Bologna (AlmaTong double degree programme with Tongji University)
