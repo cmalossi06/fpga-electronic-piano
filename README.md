@@ -5,8 +5,12 @@ An eight-key electronic piano written in Verilog and implemented on a Digilent N
 Course project for *Electronic Technology Experiment (Digital Circuit Part)*, Tongji University, Shanghai, 2025/26.
 
 <p align="center">
-  <img src="docs/images/hardware_setup.jpg" width="300" alt="Nexys A7 board with passive buzzer on Pmod JA">
+  <a href="docs/media/piano_demo.mp4"><img src="docs/media/piano_demo_preview.gif" width="240" alt="Hardware demo: playing notes with the slide switches"></a>
+  &nbsp;&nbsp;
+  <img src="docs/images/hardware_setup.jpg" width="240" alt="Nexys A7 board with buzzer module on Pmod JA">
 </p>
+
+<p align="center"><b><a href="docs/media/piano_demo.mp4">▶ Watch the full hardware demo with sound (14 s)</a></b></p>
 
 ## Features
 
@@ -104,6 +108,7 @@ src/           RTL: top level, note decoder, tone generator
 sim/           self-checking testbench
 constraints/   Nexys A7 pin constraints (.xdc)
 docs/images/   diagrams, simulation waveform, hardware photo
+docs/media/    hardware demo video and preview
 Makefile       simulation targets
 ```
 
