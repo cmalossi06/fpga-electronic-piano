@@ -10,7 +10,7 @@ Course project for *Electronic Technology Experiment (Digital Circuit Part)*, To
   <img src="docs/images/hardware_setup.jpg" width="240" alt="Nexys A7 board with buzzer module on Pmod JA">
 </p>
 
-<p align="center"><b><a href="docs/media/piano_demo.mp4">▶ Watch the full hardware demo with sound (14 s)</a></b></p>
+<p align="center"><b><a href="docs/media/piano_demo.mp4">Watch the full hardware demo with sound (14 s)</a></b></p>
 
 ## Features
 
