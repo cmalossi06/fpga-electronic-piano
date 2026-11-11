@@ -4,6 +4,8 @@ An eight-key electronic piano written in Verilog and implemented on a Digilent N
 
 Course project for *Electronic Technology Experiment (Digital Circuit Part)*, Tongji University, Shanghai, 2025/26.
 
+Full design report: [docs/report_electronic_piano.pdf](docs/report_electronic_piano.pdf)
+
 <p align="center">
   <a href="docs/media/piano_demo.mp4"><img src="docs/media/piano_demo_preview.gif" width="240" alt="Hardware demo: playing notes with the slide switches"></a>
   &nbsp;&nbsp;
@@ -107,6 +109,7 @@ make wave    # open the waveform in GTKWave
 src/           RTL: top level, note decoder, tone generator
 sim/           self-checking testbench
 constraints/   Nexys A7 pin constraints (.xdc)
+docs/          design report (PDF)
 docs/images/   diagrams, simulation waveform, hardware photo
 docs/media/    hardware demo video and preview
 Makefile       simulation targets
